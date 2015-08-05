@@ -1,0 +1,6 @@
+framework module Bytes {
+  umbrella header "Bytes-umbrella.h"
+
+  export *
+  module * { export * }
+}

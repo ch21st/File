@@ -27,7 +27,21 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '8.0'
   s.requires_arc = true
 
-  s.source_files = 'Pod/Classes/**/*'
+  s.default_subspec = 'Core'
+
+
+  s.resource_bundles = {
+    'Restler' => ['Pod/Assets/*.png']
+  }
+
+  s.subspec 'Core' do |cs|
+    cs.source_files = 'Pod/Classes/*'
+  end
+
+  s.subspec 'Bytes' do |cd|
+     cd.source_files = 'Pod/Classes/Bytes/**/*'
+     cd.dependency 'Bytes'
+  end
   s.resource_bundles = {
     'File' => ['Pod/Assets/*.png']
   }

@@ -1,0 +1,26 @@
+{
+  "name": "Bytes",
+  "version": "0.1.0",
+  "summary": "A short description of Bytes.",
+  "description": "An optional longer description of Bytes\n\n* Markdown format.\n* Don't worry about the indent, we strip it!",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/Bytes",
+  "license": "MIT",
+  "authors": {
+    "Softshag & Me": "admin@softshag.dk"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/Bytes.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "6.0",
+    "osx": "10.8"
+  },
+  "requires_arc": true,
+  "source_files": "Classes/**/*",
+  "resource_bundles": {
+    "Bytes": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}

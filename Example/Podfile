@@ -3,10 +3,14 @@ use_frameworks!
 
 target 'File_Example', :exclusive => true do
   pod "File", :path => "../"
+  pod "File/Bytes", :path => "../"
+  pod "Bytes", :path => "../../../Bytes"
 end
 
 target 'File_Tests', :exclusive => true do
   pod "File", :path => "../"
+  pod "File/Bytes", :path => "../"
+  pod "Bytes", :path => "../../../Bytes"
 
   
 end

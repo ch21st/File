@@ -1,0 +1,40 @@
+{
+  "name": "File",
+  "version": "0.1.0",
+  "summary": "A short description of File.",
+  "description": "An optional longer description of File\n\n* Markdown format.\n* Don't worry about the indent, we strip it!",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/File",
+  "license": "MIT",
+  "authors": {
+    "Softshag & Me": "admin@softshag.dk"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/File.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "default_subspecs": "Core",
+  "resource_bundles": {
+    "File": [
+      "Pod/Assets/*.png"
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "Core",
+      "source_files": "Pod/Classes/*"
+    },
+    {
+      "name": "Bytes",
+      "source_files": "Pod/Classes/Bytes/**/*",
+      "dependencies": {
+        "Bytes": [
+
+        ]
+      }
+    }
+  ]
+}

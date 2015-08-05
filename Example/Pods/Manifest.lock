@@ -1,0 +1,24 @@
+PODS:
+  - Bytes (0.1.0)
+  - File (0.1.0):
+    - File/Core (= 0.1.0)
+  - File/Bytes (0.1.0):
+    - Bytes
+  - File/Core (0.1.0)
+
+DEPENDENCIES:
+  - Bytes (from `../../../Bytes`)
+  - File (from `../`)
+  - File/Bytes (from `../`)
+
+EXTERNAL SOURCES:
+  Bytes:
+    :path: "../../../Bytes"
+  File:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Bytes: 57754ba7192ca5cf28bce6b9da337d276c9d9974
+  File: c372a863bdeed4691c5b3e61f6a0213e870952c9
+
+COCOAPODS: 0.38.1

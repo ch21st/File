@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "group:../Pod/Classes"
+      name = "Classes">
+      <Group
+         location = "group:Bytes"
+         name = "Bytes">
+         <FileRef
+            location = "group:FileReadableStream+Bytes.swift">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:File.swift">
+      </FileRef>
+      <FileRef
+         location = "group:ReadableFileStream.swift">
+      </FileRef>
+      <FileRef
+         location = "group:ReadWriteFileStream.swift">
+      </FileRef>
+      <FileRef
+         location = "group:WritableFileStream.swift">
+      </FileRef>
+   </Group>
+   <FileRef
+      location = "group:File.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>
